@@ -1,8 +1,7 @@
 
 import React from 'react';
-import { View, Text, StyleSheet, StatusBar  } from 'react-native';
+import { View, Text, StyleSheet, StatusBar,TouchableOpacity  } from 'react-native';
 import {Feather} from '@expo/vector-icons' 
-import { TouchableOpacity } from 'react-native-web';
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22: 64;
 
