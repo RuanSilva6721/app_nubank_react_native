@@ -34,6 +34,7 @@ const list = [
 export default function Home() {
   return (
     <View style={styles.container}>
+      
     <Header name ="Ruan Felipe"/>
     <Balance balance="100,23" spent="23,89"/>
     <Actions/>
@@ -53,15 +54,20 @@ const styles = StyleSheet.create({
     container:{
         flex: 1,
         backgroundColor: '#fafafa',
+        width: '84.5%'
     },
     title:{
       fontSize: 18,
       fontWeight: 'bold',
-      margin: 14
+      margin: 14,
+      marginTop: -120
 
     },
     list:{
       marginStart:14,
-      marginEnd: 14
+      marginEnd: 14,
+    },
+    actions: {
+      marginTop: 1000
     }
 })
